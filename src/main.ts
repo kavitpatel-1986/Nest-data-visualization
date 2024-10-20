@@ -33,10 +33,10 @@ async function bootstrap() {
    }));
 
   const config = new DocumentBuilder()
-    .setTitle('Quote of the Day API')
-    .setDescription('The Quote of the Day API description')
+    .setTitle('Data-Visualization API')
+    .setDescription('Data-Visualization API description')
     .setVersion('1.0')
-    .addTag('quotes')
+    .addTag('Data-Visualization')
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('docs', app, document);
